@@ -1,0 +1,10 @@
+name: regression_example
+
+conda_env: conda.yaml
+
+entry_points:
+    main:
+        parameters:
+            prepared_dir: {type: str}
+            estimators: {type: int, default=50}
+        command: "python src/train.py -d {prepared_dir} -e {estimators}"
