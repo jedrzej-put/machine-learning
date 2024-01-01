@@ -1,7 +1,6 @@
 # Deep learning
 
 ## Technology
-
 - tensorflow
 - pytorch
 - python
